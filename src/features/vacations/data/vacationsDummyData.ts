@@ -1,0 +1,60 @@
+import { VacationsSnapshot } from '../types';
+
+export const vacationsSnapshot: VacationsSnapshot = {
+  employees: [
+    {
+      id: 'vac-emp-1',
+      name: 'Evan Yates',
+      email: 'evanyates@gmail.com',
+      avatarColor: '#f0d9a4',
+      vacations: 15,
+      sickLeave: 3,
+      workRemotely: 50,
+    },
+    {
+      id: 'vac-emp-2',
+      name: 'Teresa Gonzales',
+      email: 'babahji@ihgewinw.com',
+      avatarColor: '#6da7d8',
+      vacations: 14,
+      sickLeave: 7,
+      workRemotely: 21,
+    },
+    {
+      id: 'vac-emp-3',
+      name: 'Emily Stewart',
+      email: 'lebsukuvk@rar.com',
+      avatarColor: '#f29397',
+      vacations: 10,
+      sickLeave: 2,
+      workRemotely: 70,
+    },
+    {
+      id: 'vac-emp-4',
+      name: 'Susan Austin',
+      email: 'dabuhpue@hiteni.org',
+      avatarColor: '#e2b7a2',
+      vacations: 15,
+      sickLeave: 3,
+      workRemotely: 54,
+    },
+    {
+      id: 'vac-emp-5',
+      name: 'Samuel Curry',
+      email: 'afualjlqahiwedpiv.io',
+      avatarColor: '#2a2a2a',
+      vacations: 14,
+      sickLeave: 7,
+      workRemotely: 21,
+    },
+    {
+      id: 'vac-emp-6',
+      name: 'Lelia West',
+      email: 'zuu@pasajpot.org',
+      avatarColor: '#dadada',
+      vacations: 10,
+      sickLeave: 2,
+      workRemotely: 70,
+    },
+  ],
+};
